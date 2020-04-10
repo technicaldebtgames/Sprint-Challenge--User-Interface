@@ -159,13 +159,45 @@ footer nav a {
 
     .jumbo {
 
+        width: 800px;
+        margin: 0 auto;
+        padding-bottom: 20px;
 
+    }
+
+    .desktopheader img {
+
+        width: 150px;
+
+    }
+
+    .desktopheadernav {
+
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 2;
+        justify-content: center;
+
+    }
+
+    .desktopheadernav a {
+
+        text-decoration: none;
+        color: black;
+        width: 100px;
 
     }
 
     .desktopheader {
 
-        
+        margin: 0 auto;
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-bottom: 40px;
 
     }
 
