@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box, .tealbox, .goldbox, .cadetbluebox, .coralbox, .crimsonbox, .forestgreenbox, .darkorchidbox, .hotpinkbox, .indigobox, .dodgerbluebox {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -144,3 +144,64 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.tealbox {
+
+    background-color: teal;
+
+}
+
+.goldbox {
+
+    background-color: gold;
+
+}
+
+.cadetbluebox {
+
+    background-color: cadetblue;
+
+}
+
+.coralbox {
+
+    background-color: coral;
+
+}
+
+.crimsonbox {
+
+    background-color: crimson;
+
+}
+
+.forestgreenbox {
+
+    background-color: forestgreen;
+
+}
+
+.darkorchidbox {
+
+    background-color: darkorchid;
+
+}
+
+.hotpinkbox {
+
+    background-color: hotpink;
+
+}
+
+.indigobox {
+
+    background-color: indigo;
+
+}
+
+.dodgerbluebox {
+
+    background-color: dodgerblue;
+
+}
+
