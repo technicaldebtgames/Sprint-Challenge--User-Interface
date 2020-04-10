@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+                                           /* Custom style below, reset above */
+
 * {
     box-sizing: border-box;
 }
@@ -143,6 +145,74 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+                                           /* My custom classes etc. below, pre-made classes above */
+
+@media only screen and (min-width: 800px) { /* desktop */
+
+    .mobileheader {
+
+        display: none;
+
+    }
+
+    .jumbo {
+
+
+
+    }
+
+    .desktopheader {
+
+        
+
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) { /* tablet */
+
+    .mobileheader {
+
+        display: none;
+
+    }
+
+    .jumbo {
+
+
+
+    }
+
+    .desktopheader {
+
+        
+
+    }
+
+}
+
+@media only screen and (max-width: 500px) { /* mobile */
+
+    .mobileheader {
+
+        display: block;
+
+    }
+
+    .jumbo {
+
+        width: 100%;
+
+    }
+
+    .desktopheader {
+
+        display: none;
+
+    }
+
 }
 
 .tealbox {
