@@ -198,6 +198,7 @@ footer nav a {
         align-items: flex-end;
         justify-content: space-between;
         padding-bottom: 40px;
+        padding-top: 20px;
 
     }
 
@@ -213,29 +214,157 @@ footer nav a {
 
     .jumbo {
 
+        width: 100%;
+        padding-bottom: 20px;
 
+    }
+
+    .desktopheader img {
+
+        width: 25%;
 
     }
 
     .desktopheader {
 
-        
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-left: 40px;
 
+    }
+
+    .desktopheadernav {
+
+        width: 15%;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 2;
+        justify-content: center;
+
+    }
+
+    .desktopheadernav a {
+
+        text-decoration: none;
+        color: black;
+        width: 15%;
+
+    }
+
+    .container {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .top-content {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .text-container p {
+
+        margin-bottom: 20px;
+
+    }
+
+    .bottom-content {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .tealbox, .goldbox, .cadetbluebox, .coralbox, .crimsonbox, .forestgreenbox, .darkorchidbox, .hotpinkbox, .indigobox, .dodgerbluebox {
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .top-content .text-container {
+        width: 95%;
+        padding: 0 1%;
+        padding-bottom: 20px;  
     }
 
 }
 
 @media only screen and (max-width: 500px) { /* mobile */
 
+    .container {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .top-content {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .mobilelogo {
+
+        width: 200px;
+        height: 90px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
     .mobileheader {
 
-        display: block;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .mobileheadernav {
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .mobileheadernav button {
+
+        border: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color:#999999;
+        width: 300px;
+        height: 30px;
+        border-radius: 6px;
 
     }
 
     .jumbo {
 
         width: 100%;
+        padding-bottom: 20px;
 
     }
 
@@ -243,6 +372,49 @@ footer nav a {
 
         display: none;
 
+    }
+
+    .boxes {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .tealbox, .goldbox, .cadetbluebox, .coralbox, .crimsonbox, .forestgreenbox, .darkorchidbox, .hotpinkbox, .indigobox, .dodgerbluebox {
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .text-container p {
+
+        margin-bottom: 20px;
+
+    }
+
+    .bottom-content {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .mobileheadernav button.nothome {
+
+        color: #DDDDDD;
+        background-color: white;
+        border-color: #DDDDDD;
+
+    }
+
+    .top-content .text-container {
+        width: 95%;
+        padding: 0 1%;
+        padding-bottom: 20px;  
     }
 
 }
