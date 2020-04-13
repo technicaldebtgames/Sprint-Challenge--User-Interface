@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+                                           /* Custom style below, reset above */
+
 * {
     box-sizing: border-box;
 }
@@ -101,7 +103,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box, .tealbox, .goldbox, .cadetbluebox, .coralbox, .crimsonbox, .forestgreenbox, .darkorchidbox, .hotpinkbox, .indigobox, .dodgerbluebox {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -144,3 +146,336 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+                                           /* My custom classes etc. below, pre-made classes above */
+
+@media only screen and (min-width: 800px) { /* desktop */
+
+    .mobileheader {
+
+        display: none;
+
+    }
+
+    .jumbo {
+
+        width: 800px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+
+    }
+
+    .desktopheader img {
+
+        width: 150px;
+
+    }
+
+    .desktopheadernav {
+
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 2;
+        justify-content: center;
+
+    }
+
+    .desktopheadernav a {
+
+        text-decoration: none;
+        color: black;
+        width: 100px;
+
+    }
+
+    .desktopheader {
+
+        margin: 0 auto;
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        padding-top: 20px;
+
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) { /* tablet */
+
+    .mobileheader {
+
+        display: none;
+
+    }
+
+    .jumbo {
+
+        width: 100%;
+        padding-bottom: 20px;
+
+    }
+
+    .desktopheader img {
+
+        width: 25%;
+
+    }
+
+    .desktopheader {
+
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-left: 40px;
+
+    }
+
+    .desktopheadernav {
+
+        width: 15%;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 2;
+        justify-content: center;
+
+    }
+
+    .desktopheadernav a {
+
+        text-decoration: none;
+        color: black;
+        width: 15%;
+
+    }
+
+    .container {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .top-content {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .text-container p {
+
+        margin-bottom: 20px;
+
+    }
+
+    .bottom-content {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .tealbox, .goldbox, .cadetbluebox, .coralbox, .crimsonbox, .forestgreenbox, .darkorchidbox, .hotpinkbox, .indigobox, .dodgerbluebox {
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .top-content .text-container {
+        width: 95%;
+        padding: 0 1%;
+        padding-bottom: 20px;  
+    }
+
+}
+
+@media only screen and (max-width: 500px) { /* mobile */
+
+    .container {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .top-content {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .mobilelogo {
+
+        width: 200px;
+        height: 90px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .mobileheader {
+
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .mobileheadernav {
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .mobileheadernav button {
+
+        border: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color:#999999;
+        width: 300px;
+        height: 30px;
+        border-radius: 6px;
+
+    }
+
+    .jumbo {
+
+        width: 100%;
+        padding-bottom: 20px;
+
+    }
+
+    .desktopheader {
+
+        display: none;
+
+    }
+
+    .boxes {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .tealbox, .goldbox, .cadetbluebox, .coralbox, .crimsonbox, .forestgreenbox, .darkorchidbox, .hotpinkbox, .indigobox, .dodgerbluebox {
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .text-container p {
+
+        margin-bottom: 20px;
+
+    }
+
+    .bottom-content {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .mobileheadernav button.nothome {
+
+        color: #DDDDDD;
+        background-color: white;
+        border-color: #DDDDDD;
+
+    }
+
+    .top-content .text-container {
+        width: 95%;
+        padding: 0 1%;
+        padding-bottom: 20px;  
+    }
+
+}
+
+.tealbox {
+
+    background-color: teal;
+
+}
+
+.goldbox {
+
+    background-color: gold;
+
+}
+
+.cadetbluebox {
+
+    background-color: cadetblue;
+
+}
+
+.coralbox {
+
+    background-color: coral;
+
+}
+
+.crimsonbox {
+
+    background-color: crimson;
+
+}
+
+.forestgreenbox {
+
+    background-color: forestgreen;
+
+}
+
+.darkorchidbox {
+
+    background-color: darkorchid;
+
+}
+
+.hotpinkbox {
+
+    background-color: hotpink;
+
+}
+
+.indigobox {
+
+    background-color: indigo;
+
+}
+
+.dodgerbluebox {
+
+    background-color: dodgerblue;
+
+}
+

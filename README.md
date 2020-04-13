@@ -33,13 +33,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic elements define their content, unlike non-semantic elements. A <div> (non-semantic) doesn't tell you its purpose; its only function is to serve as a container of some nature. A <section> (semantic) does; its function is to serve as a container whose items share a relationship in some way. The understanding that child elements are related allows browsers/software/etc. to interpret it more easily, and to present it to users in a way that the human brain can logically digest, since the human brain is a system that understands the world through logical relationships. (For sources on this claim, see: "Nearly all of western philosophy since ancient Greece." One may argue differently through other philosophical schools, however, they don't have backing from Wall Street and Silicon Valley.)
+
 2. What are the 4 areas of the box model?
+
+Content, padding, border, margin.
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross axis (the axis perpendicular to the primary axis).
+
 4. Explain why git is valuable to a team of developers.
 
+Git allows developers the ability to modify the same source code, by creating branches that can later be merged together. Individuals can work on the same files, and conflicts can be corrected before merging. In addition to this, it allows changes to be reversed, and backups to be made of an entire development effort, relatively granularly.
+
 5. Define mobile-first design in your own words.
+
+Prototyping and designing should start with the smallest device first, in order to assure a good user experience for all users. Since mobile often requires the most design constraints, this prevents usable desktop designs from interfering with mobile design. It is often easier to create a desktop design from a mobile design than it is in the reverse direction, due to mobile constraints.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
